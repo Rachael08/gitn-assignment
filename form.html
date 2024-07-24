@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend><h1>Your Details</h1></legend>
+        <form action="mailto: rachealogbe08@gmail.com" method="get">
+            <label for="firstName">First Name:</label>
+            <input type="text"> <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text"> <br>
+            <label for="tel">Tel:</label>
+            <input type="text"> <br> <br>
+
+            <h4>Pick your favorite food</h4>
+
+            <input type="radio" id="food" name="food">
+            <label for="food">Rice</label>
+            <input type="radio" id="food" name="food">
+            <label for="food">Beans</label>
+            <input type="radio" id="food" name="food">
+            <label for="food">Yam</label>
+            <input type="radio" id="food" name="food">
+            <label for="food">Spaghetti</label>
+
+            <h4>Select your favourite cars</h4>
+            <input type="checkbox">
+            <label for="car">Honda</label><br>
+            <input type="checkbox">
+            <label for="car">Kia</label> <br>
+            <input type="checkbox">
+            <label for="car">Audi</label> <br>
+            <input type="checkbox">
+            <label for="car">Toyota</label><br>
+            <input type="checkbox">
+            <label for="car">BMW</label> <br>
+
+            <label for="fav currency"> <h4>Select your favourite currency</h4></label> 
+            <select name="currency" id="currency">
+                <option value="currency">Select an option</option>
+                <option value="currency">Pounds Sterling</option>
+                <option value="currency">Euro</option>
+                <option value="currency">Cedis</option>
+                <option value="currency">Dollars</option>
+                <option value="currency">Naira</option> 
+            </select> <br> <br>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Please, type here..."></textarea> <br><br>
+
+            <button>SUBMIT</button>
+
+        </form>
+    </fieldset>
+
+    <a href="index.html">Home</a>
+    <a href="./images/sunshine.jpeg">Sunshine page</a>
+</body>
+
+</html>
